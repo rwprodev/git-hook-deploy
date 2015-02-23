@@ -26,3 +26,7 @@ I schedule this job to run every 5 mins via a cron job.
 ```
 */5 * * * * /home/username/bin/check-deploy-hook.sh
 ```
+
+### Notes on setting up git
+
+When you setup git on your server, you will want to make sure that you setup deployment ssh keys with your remote git service. This will make sure that everything is more secure. Check with your git service (Bitbucket, GitHub, etc) on how to set these up. 
