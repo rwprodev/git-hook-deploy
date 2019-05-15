@@ -21,6 +21,8 @@ This shell script check for the existence of a deploy hook file. If one is found
 your websites git repo. It will then perform a `git reset` and `git pull` on your repo. The latest updates
 will then get pulled down to your server.
 
+Ensure that permissions are set to 700.
+
 I schedule this job to run every 5 mins via a cron job.
 
 ```
